@@ -1,0 +1,13 @@
+This gem requires NAIF's CSPICE toolkit.  This can be downloaded from:
+ http://naif.jpl.nasa.gov/naif/toolkit_C.html
+
+To compile, you will need to go into the cspice/lib directory and copy cspice.a
+to libcspice.a so that gcc can find it.  Then you will need to pass to extconf
+the flag --with-cspice-dir=/path/to/cspice
+
+Using the gem command, this might look like:
+  gem install --local naif-spice.gem -- --with-spice-dir=/path/to/cspice
+
+The CSPICE library is statically linked, do it doesn't matter where you
+unarchive it for compiling.
+

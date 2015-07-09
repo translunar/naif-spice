@@ -1,0 +1,103 @@
+--- !ruby/object:Gem::Specification 
+name: naif-spice
+version: !ruby/object:Gem::Version 
+  hash: 17
+  prerelease: 
+  segments: 
+  - 2
+  - 9
+  version: "2.9"
+platform: ruby
+authors: 
+- Nick Estes
+- Adam Licht
+autorequire: 
+bindir: false
+cert_chain: []
+
+date: 2014-01-07 00:00:00 Z
+dependencies: []
+
+description: |
+  The Ruby Spice library is a wrapper around NAIF's cspice API.  It is not
+  yet feature complete, but it does have a lot of basic spice functions
+  available.
+
+email: 
+- lunaserv@ser.asu.edu
+executables: []
+
+extensions: 
+- extconf.rb
+extra_rdoc_files: []
+
+files: 
+- spice.c
+- spice_utils.rb
+- COPYING
+- INSTALL
+- extconf.rb
+- ext/include/cspice/SpiceZpl.h
+- ext/include/cspice/SpiceUsr.h
+- ext/include/cspice/signal1.h
+- ext/include/cspice/SpiceZpr.h
+- ext/include/cspice/SpiceEll.h
+- ext/include/cspice/SpiceZad.h
+- ext/include/cspice/SpiceZst.h
+- ext/include/cspice/fp.h
+- ext/include/cspice/SpiceZfc.h
+- ext/include/cspice/SpiceZdf.h
+- ext/include/cspice/f2c.h
+- ext/include/cspice/zzerror.h
+- ext/include/cspice/fio.h
+- ext/include/cspice/f2cMang.h
+- ext/include/cspice/SpicePln.h
+- ext/include/cspice/SpiceZmc.h
+- ext/include/cspice/zzalloc.h
+- ext/include/cspice/SpiceGF.h
+- ext/include/cspice/SpiceSPK.h
+- ext/include/cspice/SpiceCK.h
+- ext/include/cspice/rawio.h
+- ext/include/cspice/SpiceZim.h
+- ext/include/cspice/SpiceEK.h
+- ext/include/cspice/lio.h
+- ext/include/cspice/fmt.h
+- ext/include/cspice/SpiceCel.h
+- ext/lib/darwin/libcspice.a
+- ext/lib/i386-linux/libcspice.a
+- ext/lib/x86_64-linux/libcspice.a
+homepage: http://lunaserv.lroc.asu.edu
+licenses: 
+- Modified BSD
+post_install_message: 
+rdoc_options: []
+
+require_paths: 
+- .
+required_ruby_version: !ruby/object:Gem::Requirement 
+  none: false
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
+      version: "0"
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  none: false
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
+      version: "0"
+requirements: 
+- NAIF's cspice toolkit
+rubyforge_project: 
+rubygems_version: 1.8.15
+signing_key: 
+specification_version: 3
+summary: Spice is a wrapper around NAIF's cspice.
+test_files: []
+
