@@ -1,0 +1,27 @@
+= Naif-Spice
+
+Ruby wrapper for NAIF's cspice API
+
+* {Lunaserv}[http://lunaserv.lroc.asu.edu]
+
+== Description
+
+The Ruby Spice library is a wrapper around NAIF's cspice API.  It is not
+yet feature complete, but it does have a lot of basic spice functions
+available.
+
+=== Note
+
+This repository was populated using an old `.gem` file. It has not been
+tested at all. I was unable to find a Github repository for this gem
+anywhere, so I created one.
+
+== Authors
+
+* Nick Estes
+* Adam Licht
+
+== License
+
+Modified BSD
+
