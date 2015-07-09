@@ -2620,7 +2620,7 @@ VALUE mSpice;
 void Init_spice(void) {
   mSpice = rb_define_module("Spice");
   
-  rb_require("spice_utils.rb"); 
+  rb_require("./spice_utils.rb"); 
   
   rb_define_module_function(mSpice, "bodn2c", bodn2c, -1);
   rb_define_module_function(mSpice, "bodvcd", bodvcd, 2);
