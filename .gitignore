@@ -1,0 +1,6 @@
+Makefile
+ext/lib/
+*.o
+*.bundle
+*.so
+
